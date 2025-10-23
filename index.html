@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qrcode Generator</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <section id="primary" class="">
+            <header>
+                <img src="assets/Logo.svg" alt="">
+            </header>
+            <form action="gerarQRcode">
+                <div class="input-wrapper">
+                    <input type="text" title="content" id="content" placeholder="Enter an url">
+                    <button type="submit" title="content" id="btn">QR code</button>
+                </div>
+            </form>
+        </section>
+       
+        <section id="secondary" class="transparent">
+            
+            <header>
+                <img src="assets/Logo-small.svg" alt="">
+            </header>
+            
+            <div id="qrcode" class="circle">
+
+            </div>
+            
+            <div id="buttons" class=" gap">
+               <button type="submit" >
+                    Download
+                    <img src="assets/Load_circle_duotone.svg" alt="">
+                </button >
+                <button >
+                    Share
+                    <img src="assets/link_alt.svg" alt="">
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

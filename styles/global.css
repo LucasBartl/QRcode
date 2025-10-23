@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem ;
+    overflow: hidden;
+}
+.container{
+    padding: 5rem;
+    margin-inline:auto ;
+    margin-block: 18rem;
+    text-align: center ;
+    max-width: 50rem ;
+    height: 30rem ;
+}
+body{
+    background: url(/assets/qa-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+header{
+    margin-bottom: 3rem;
+}
+
+.transparent{
+    display: none;
+}
+
+.gap{
+    gap: 1rem;
+}
+.grid{
+    display: grid;
+}
