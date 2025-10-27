@@ -4,7 +4,7 @@ const primary = document.querySelector("#primary");
 const secondary = document.querySelector("#secondary");
 const qrcode = document.querySelector("#qrcode");
 const download = document.querySelector("#download");
-
+const copy = document.querySelector("#copy");
 
 
 content.oninput  = ()=>{
@@ -52,8 +52,14 @@ download.addEventListener("click", (event)=>{
 
     link.href = qrImage;
     link.download = "meu-qrcode.png";
-    
+
     link.click();
     link.remove();
 })
 
+copy.addEventListener("click",()=>{
+
+    navigator.clipboard.writeText(content.value);
+
+
+})
