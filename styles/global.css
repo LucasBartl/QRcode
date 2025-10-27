@@ -18,7 +18,7 @@ html{
     height: 30rem ;
 }
 body{
-    background: url(/assets/back.jpg) no-repeat center center fixed;
+    background: url(./assets/back.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
 }
