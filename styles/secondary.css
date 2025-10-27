@@ -40,7 +40,9 @@
         border-radius: 2rem;
         background-color:#f0f1f1;
     }
-    
+    .cursor{
+        cursor: pointer;
+    }
 
     & #buttons {
         position: relative;
