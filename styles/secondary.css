@@ -16,15 +16,31 @@
 
     & .circle {
         position: relative;
-        left: 2.3rem;
+        left: 1rem;
         top: -4rem;
         background-color: #F8FAFC1A;
-       
         border-radius: 50%;
-        height: 18rem;
-        width: 18rem;
+        height: 25rem;
+        width: 25rem;
 
     }
+    .border{
+        display:grid;
+        justify-content: center;
+        justify-items: center;
+        box-sizing: border-box;
+        padding: 2rem 2rem;
+        overflow: hidden;
+        position: relative;
+        left: 2.5rem;
+        bottom: -2.5rem;
+        border: 1px solid #FAFAF9 ;
+        height: 20rem;
+        width: 20rem;
+        border-radius: 2rem;
+        background-color:#f0f1f1;
+    }
+    
 
     & #buttons {
         position: relative;
